@@ -7,6 +7,7 @@ SHOWING_CN = "showing";
 
 function saveName(text){
     localStorage.setItem(USER_LS, text);
+    //localStorage에 이름 저장
 }
 
 function handleSubmit(event){
